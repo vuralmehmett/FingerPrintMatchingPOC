@@ -1,0 +1,7 @@
+packages/
+SendForFingerPrintForMatching/bin/
+SendForFingerPrintForMatching/obj/
+SendForFingerPrintForMatching.Business/bin/
+SendForFingerPrintForMatching.Business/obj/
+SampleTakeFingerPrint/bin/
+SampleTakeFingerPrint/obj/

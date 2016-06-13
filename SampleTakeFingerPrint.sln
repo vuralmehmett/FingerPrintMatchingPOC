@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleTakeFingerPrint", "SampleTakeFingerPrint\SampleTakeFingerPrint.csproj", "{E2EA6768-3BBE-4649-B60F-CFEE2A907BDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendForFingerPrintForMatching", "SendForFingerPrintForMatching\SendForFingerPrintForMatching.csproj", "{F9F22C2A-C953-4BC4-87C5-772E38E1DE34}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BiometricMatchingFramework", "BiometricMatchingFramework", "{D7B8C9C9-9FB0-4BF4-9E56-346BF29B742C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleFingerPrintRecognition.Data", "..\SampleFingerPrintRecognition\SampleFingerPrintRecognition.Data\SampleFingerPrintRecognition.Data.csproj", "{DCFD323B-BA48-4479-97C3-3B6C03AD6FE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleFingerPrintRecognition", "..\SampleFingerPrintRecognition\SampleFingerPrintRecognition\SampleFingerPrintRecognition.csproj", "{10009374-D1B1-4CFD-9407-6A5DF6EEC913}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleFingerPrintRecognation.Business", "..\SampleFingerPrintRecognition\SampleFingerPrintRecognation.Business\SampleFingerPrintRecognation.Business.csproj", "{8CA6F9D1-D93E-4113-9EBE-75BEB67DDDB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendForFingerPrintForMatching.Business", "SendForFingerPrintForMatching.Business\SendForFingerPrintForMatching.Business.csproj", "{FC1CC161-E6FE-463E-AC0A-301F2E178E1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2EA6768-3BBE-4649-B60F-CFEE2A907BDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2EA6768-3BBE-4649-B60F-CFEE2A907BDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2EA6768-3BBE-4649-B60F-CFEE2A907BDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2EA6768-3BBE-4649-B60F-CFEE2A907BDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9F22C2A-C953-4BC4-87C5-772E38E1DE34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9F22C2A-C953-4BC4-87C5-772E38E1DE34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9F22C2A-C953-4BC4-87C5-772E38E1DE34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9F22C2A-C953-4BC4-87C5-772E38E1DE34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCFD323B-BA48-4479-97C3-3B6C03AD6FE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCFD323B-BA48-4479-97C3-3B6C03AD6FE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCFD323B-BA48-4479-97C3-3B6C03AD6FE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCFD323B-BA48-4479-97C3-3B6C03AD6FE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10009374-D1B1-4CFD-9407-6A5DF6EEC913}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10009374-D1B1-4CFD-9407-6A5DF6EEC913}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10009374-D1B1-4CFD-9407-6A5DF6EEC913}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10009374-D1B1-4CFD-9407-6A5DF6EEC913}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CA6F9D1-D93E-4113-9EBE-75BEB67DDDB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CA6F9D1-D93E-4113-9EBE-75BEB67DDDB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CA6F9D1-D93E-4113-9EBE-75BEB67DDDB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CA6F9D1-D93E-4113-9EBE-75BEB67DDDB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC1CC161-E6FE-463E-AC0A-301F2E178E1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC1CC161-E6FE-463E-AC0A-301F2E178E1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC1CC161-E6FE-463E-AC0A-301F2E178E1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC1CC161-E6FE-463E-AC0A-301F2E178E1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DCFD323B-BA48-4479-97C3-3B6C03AD6FE8} = {D7B8C9C9-9FB0-4BF4-9E56-346BF29B742C}
+		{10009374-D1B1-4CFD-9407-6A5DF6EEC913} = {D7B8C9C9-9FB0-4BF4-9E56-346BF29B742C}
+		{8CA6F9D1-D93E-4113-9EBE-75BEB67DDDB7} = {D7B8C9C9-9FB0-4BF4-9E56-346BF29B742C}
+	EndGlobalSection
+EndGlobal
